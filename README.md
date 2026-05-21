@@ -8,7 +8,7 @@ Design, simulation, and PCB implementation of an analog Leaky Integrate-and-Fire
 
 This project focuses on implementing a biologically inspired LIF neuron using analog hardware techniques. The circuit demonstrates membrane potential integration and spike-generation behavior used in neuromorphic systems and SNN architectures.
 
-The circuit uses resistive elements as configurable synaptic weights. During simulation, specific resistance values were selected to analyze neuron behavior and spike-generation characteristics, including an output spike pulses width of approximately 10 ms..
+The circuit uses resistive elements as configurable both positive and negative synaptic weights. During simulation, specific resistance values were selected to analyze neuron behavior and spike-generation characteristics, including an output spike pulses width of approximately 10 ms.
 
 For the PCB implementation, resistor positions were designed with pin headers, allowing resistors to be easily replaced and tested with different weight values. This enables flexible experimentation with various resistance configurations and neuron responses.
 
